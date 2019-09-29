@@ -1,2 +1,2 @@
 # Agent-based-modeling
-Here you can find my coursework 
+This work is devoted to the study of agent-based models. 
