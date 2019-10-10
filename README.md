@@ -1,4 +1,4 @@
 # Agent-based modeling
-This work is devoted to the study of agent-based models. 
+This work is devoted to the study of information transfer in social networks. We have created a model that allows to simulate the process of information exchange under certain conditions. 
 
 *Telegram: @kirillzx*
