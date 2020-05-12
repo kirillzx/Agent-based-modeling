@@ -10,7 +10,7 @@ Kirill Zakharov, Daniil Sobolev
 Without optimization
 ```python
 %timeit function()
-13.5s +- 1.23s per loop
+13.5 s +- 1.23 s per loop
 `````
 With cython optimization
 ```python
