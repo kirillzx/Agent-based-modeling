@@ -11,9 +11,9 @@ Without optimization
 ```python
 %timeit function()
 13.5s +- 1.23s per loop
-```
+`````
 With cython optimization
 ```python
 %timeit function()
 
-```
+`````
