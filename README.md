@@ -5,3 +5,9 @@ This work is devoted to the study of information transfer in social networks. We
 Kirill Zakharov, Daniil Sobolev
 
 *Telegram: @kirillzx*
+
+## Facts...
+```python
+%timeit function
+13.5s +- 1.23
+```
