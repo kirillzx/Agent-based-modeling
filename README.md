@@ -3,4 +3,5 @@ This work is devoted to the study of information transfer in social networks. We
 
 ## Authors
 Kirill Zakharov, Daniil Sobolev
+
 *Telegram: @kirillzx*
