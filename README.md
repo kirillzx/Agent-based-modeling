@@ -8,7 +8,7 @@ Kirill Zakharov, Daniil Sobolev
 
 ## Facts...
 Without optimization
-```
+```python
 %timeit function()
 13.5 s +- 1.23 s per loop
 `````
