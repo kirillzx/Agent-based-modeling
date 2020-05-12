@@ -8,6 +8,6 @@ Kirill Zakharov, Daniil Sobolev
 
 ## Facts...
 ```python
-%timeit function
-13.5s +- 1.23
+%timeit function()
+13.5s +- 1.23s per loop
 ```
