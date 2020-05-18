@@ -7,13 +7,8 @@ Kirill Zakharov, Daniil Sobolev
 *Telegram: @kirillzx*
 
 ## Facts...
-Without optimization
+
 ```python
 %timeit function()
 13.5 s +- 1.23 s per loop
-`````
-With cython optimization
-```python
-%timeit function()
-
 `````
