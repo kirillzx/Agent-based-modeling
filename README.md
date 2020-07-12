@@ -1,14 +1,7 @@
 # Agent-based modeling
-This work is devoted to the study of information transfer in social networks. We have created a model that allows to simulate the process of information exchange under certain conditions. 
+This works are devoted to the study agent based models of surrounding world.
 
 ## Authors
-Kirill Zakharov, Daniil Sobolev
+Kirill Zakharov
 
 *Telegram: @kirillzx*
-
-## Facts...
-
-```python
-%timeit function()
-13.5 s +- 1.23 s per loop
-`````
