@@ -4,4 +4,4 @@ This research devoted to modeling the epidemic spread. In this model agents have
 Variables|Meanings
 ---|---
 num_inf|the number of population
-![Image](/C:/Users/kirill/Pictures/Screenshots/step_1.png)
+![Image](C://Users/kirill/Pictures/Screenshots/step_1.png)
