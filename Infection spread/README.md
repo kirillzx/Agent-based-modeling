@@ -5,5 +5,6 @@ This research devoted to modeling the epidemic spread. In this model agents have
 
 Variables|Meanings
 ---|---
-num_inf|the number of population
+num_p|the number of population
+num_inf|the beginning percent of infected people
 
