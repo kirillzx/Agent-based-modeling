@@ -1,1 +1,2 @@
-# This research devoted to modeling the epidemic spread. In this model agents have one status of four possbile: susceptible, infected, healthy, recovered. The author's model name is SIHR-model.
+ABM of epidemic spread
+This research devoted to modeling the epidemic spread. In this model agents have one status of four possbile: susceptible, infected, healthy, recovered. The author's model name is SIHR-model.
