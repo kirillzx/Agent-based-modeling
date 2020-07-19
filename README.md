@@ -15,4 +15,4 @@ num_inf|the beginning percent of infected people
 death_limit|the age at which people with low immunity die
 incubation_period|the time after exposed people become infected
 delta|the contact rate
-k|the number of contacts (for each agent are different)
+k|the number of contacts (different for each agent)
