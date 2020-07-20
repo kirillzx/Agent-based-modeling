@@ -25,7 +25,7 @@ k|the number of contacts (different for each agent)
 color|status
 ---|---
 green|healthy
-black|susceptible
+green|susceptible
 orange|exposed
 red|infected
 blue|recovered
