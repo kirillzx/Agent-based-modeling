@@ -35,5 +35,5 @@ red|infected
 blue|recovered
 
 
-<img src="https://psv4.userapi.com/c856320/u451824612/docs/d3/35266b5a0fda/Snimok_Ekrana_67.png?extra=Dvz9aP7Udli-13eH04485Q3mDCTWdbruAlOCQsWSJfMoOOu7-7dgtb_DUU78bby2TVP0idvnLPVEQs47JaNOxJ0BtI_QCMgPLskAPCM3qcCDI4QjjuZrgTN34VShAYoHV_3deg8VetNvJwfwvqe2FgI">
+<img src="https://psv4.userapi.com/c856320/u451824612/docs/d3/35266b5a0fda/Snimok_Ekrana_67.png?extra=Dvz9aP7Udli-13eH04485Q3mDCTWdbruAlOCQsWSJfMoOOu7-7dgtb_DUU78bby2TVP0idvnLPVEQs47JaNOxJ0BtI_QCMgPLskAPCM3qcCDI4QjjuZrgTN34VShAYoHV_3deg8VetNvJwfwvqe2FgI" width=250 height=50>
 
