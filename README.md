@@ -33,3 +33,7 @@ green|susceptible
 orange|exposed
 red|infected
 blue|recovered
+
+$$
+\frac{1}{2}
+$$
