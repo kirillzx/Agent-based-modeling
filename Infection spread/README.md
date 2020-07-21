@@ -12,6 +12,10 @@ The number of agent groups at each step
 
 <img src="https://psv4.userapi.com/c856428/u451824612/docs/d5/4702de8f3bfc/Snimok_Ekrana_66.png?extra=plwwf0Wpnkb4gTbI3shzj0_JGpngH0EFMgw0ut1DsIDx1NmU1_yNDvqqxgXiuIToV6s6DvSbkNArq_XJHu-05_DUhtASH6aEuGxpLR-RumQKIfHiksnY7C60mRgf9KvuiJ8uVHvcd_Z3hfaQ6FBEoJ0" width=400 height=300>
 
+contacts occur with a certain probability
+
+<img src="https://psv4.userapi.com/c856320/u451824612/docs/d3/35266b5a0fda/Snimok_Ekrana_67.png?extra=Dvz9aP7Udli-13eH04485Q3mDCTWdbruAlOCQsWSJfMoOOu7-7dgtb_DUU78bby2TVP0idvnLPVEQs47JaNOxJ0BtI_QCMgPLskAPCM3qcCDI4QjjuZrgTN34VShAYoHV_3deg8VetNvJwfwvqe2FgI" width=500 height=100>
+
 
 Variables|Meanings
 ---|---
