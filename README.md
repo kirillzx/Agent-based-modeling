@@ -7,7 +7,7 @@ This research devoted to modeling the epidemic spread. In this model agents have
 
 initial population|intermediate result|final result
 ---|---|---
-<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/step1.jpg width=250 height=250/>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/0d390ad92a59/Snimok_Ekrana_64.png?extra=fmGMQ842ckH5G7gbl0RnJdsS5VuaXj49omf5YRLsXbvh5yH7z_NdFy8b2emrVLPhpj4k_JjJjTiJUHHtO5uTKQ62LX8zb8HC_0L-UxJK-N8FGJzIKJBmZpt0MFaA46smF1hhQvVEktpYnynXXHUnM1o" width=250 height=250>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/6eb56e9664fc/Snimok_Ekrana_65.png?extra=Z8mpolx5BOqsN7x4YldXpdALKgsYa5cmCpm5MbM1b1eBd01P6iXRVGilWs-BsQaXycMfkGObBYd1Kkeg65luOd6hY3495ALG3BJONOGMiAtQaFVZZ1FwrvgtaQ-RSc7N49dqf_PVURfkQNNT_NDarVI" width=250 height=250>
+<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/step1.jpg" width=250 height=250/>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/0d390ad92a59/Snimok_Ekrana_64.png?extra=fmGMQ842ckH5G7gbl0RnJdsS5VuaXj49omf5YRLsXbvh5yH7z_NdFy8b2emrVLPhpj4k_JjJjTiJUHHtO5uTKQ62LX8zb8HC_0L-UxJK-N8FGJzIKJBmZpt0MFaA46smF1hhQvVEktpYnynXXHUnM1o" width=250 height=250>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/6eb56e9664fc/Snimok_Ekrana_65.png?extra=Z8mpolx5BOqsN7x4YldXpdALKgsYa5cmCpm5MbM1b1eBd01P6iXRVGilWs-BsQaXycMfkGObBYd1Kkeg65luOd6hY3495ALG3BJONOGMiAtQaFVZZ1FwrvgtaQ-RSc7N49dqf_PVURfkQNNT_NDarVI" width=250 height=250>
 
 The number of agent groups at each step
 
