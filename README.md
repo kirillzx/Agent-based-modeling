@@ -11,13 +11,13 @@ initial population|intermediate result|final result
 
 The number of agent groups at each step without isolation
 
-<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/plot1.jpg" width=400 height=300/>
+<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/plot1.png" width=400 height=300/>
 The number of agent groups at each step with isolation
 
-<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/plot2.jpg" width=400 height=300/>
+<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/plot2.png" width=400 height=300/>
 contacts occur with a certain probability
 
-<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/probability.jpg" width=500 height=100/>
+<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/probability.png" width=500 height=100/>
 
 Variables|Meanings
 ---|---
