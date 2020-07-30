@@ -5,11 +5,9 @@ These works are devoted to the study agent based models of surrounding world.
 # Epidemic spread
 This research devoted to modeling the epidemic spread. In this model agents have one status of four possbile: susceptible, infected, healthy, recovered. The author's model name is HSEIR-model.
 
-![Иллюстрация к проекту](https://github.com/kirillzx/Agent-based-modeling/raw/master/images/step1.jpg)
-
 initial population|intermediate result|final result
 ---|---|---
-<img src="file://C:/Users/kirill/Pictures/Screenshots/step1.jpg"/>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/0d390ad92a59/Snimok_Ekrana_64.png?extra=fmGMQ842ckH5G7gbl0RnJdsS5VuaXj49omf5YRLsXbvh5yH7z_NdFy8b2emrVLPhpj4k_JjJjTiJUHHtO5uTKQ62LX8zb8HC_0L-UxJK-N8FGJzIKJBmZpt0MFaA46smF1hhQvVEktpYnynXXHUnM1o" width=250 height=250>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/6eb56e9664fc/Snimok_Ekrana_65.png?extra=Z8mpolx5BOqsN7x4YldXpdALKgsYa5cmCpm5MbM1b1eBd01P6iXRVGilWs-BsQaXycMfkGObBYd1Kkeg65luOd6hY3495ALG3BJONOGMiAtQaFVZZ1FwrvgtaQ-RSc7N49dqf_PVURfkQNNT_NDarVI" width=250 height=250>
+<img src="https://github.com/kirillzx/Agent-based-modeling/raw/master/images/step1.jpg width=250 height=250/>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/0d390ad92a59/Snimok_Ekrana_64.png?extra=fmGMQ842ckH5G7gbl0RnJdsS5VuaXj49omf5YRLsXbvh5yH7z_NdFy8b2emrVLPhpj4k_JjJjTiJUHHtO5uTKQ62LX8zb8HC_0L-UxJK-N8FGJzIKJBmZpt0MFaA46smF1hhQvVEktpYnynXXHUnM1o" width=250 height=250>|<img src="https://psv4.userapi.com/c856428/u451824612/docs/d9/6eb56e9664fc/Snimok_Ekrana_65.png?extra=Z8mpolx5BOqsN7x4YldXpdALKgsYa5cmCpm5MbM1b1eBd01P6iXRVGilWs-BsQaXycMfkGObBYd1Kkeg65luOd6hY3495ALG3BJONOGMiAtQaFVZZ1FwrvgtaQ-RSc7N49dqf_PVURfkQNNT_NDarVI" width=250 height=250>
 
 The number of agent groups at each step
 
