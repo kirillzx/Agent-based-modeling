@@ -5,7 +5,7 @@ These works are devoted to the study agent based models of surrounding world.
 # Epidemic spread
 This research devoted to modeling the epidemic spread. In this model agents have one status of four possbile: susceptible, infected, healthy, recovered. The author's model name is HSEIR-model.
 
-![Иллюстрация к проекту](https://github.com/kirillzx/Agent-based-modeling/raw/master/image/step1.jpg)
+![Иллюстрация к проекту](https://github.com/kirillzx/Agent-based-modeling/raw/master/images/step1.jpg)
 
 initial population|intermediate result|final result
 ---|---|---
