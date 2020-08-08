@@ -9,11 +9,23 @@ class Emitter:
         self.numObligations = kwargs.get("numObligations", 100)
         self.location = (random.uniform(0, 1), random.uniform(0, 1))
         self.price = self.numStocks / self.agency / sqrt(self.agency)
+        self.period = kwargs.get("period", 30)
+        # self.offer = self.numStocks//self.period
+        self.exchange = False
 
+    def offering_stocks(self):
+        self.exchange = True
 
     def sell_stocks(self, request_stocks):
+        stocks = 0
         if request_stocks < self.numStocks:
-            numStocks = numStocks - request_stocks
+            stocks = request_stocks
+            self.numStocks = self.numStocks - request_stocks
+        else:
+            stocks = self.numStocks
+            numStocks = 0
+        return stocks
+
 
 #class of Broker, who help buy stocks and get revenue from profit
 class Broker:
@@ -21,8 +33,17 @@ class Broker:
         self.percent = percent #revenue percent of profit
         self.id = 'b'
         self.location = (random.uniform(0, 1), random.uniform(0, 1))
+        self.stocks = []
 
-    # def buy_stocks(self):
+    def choose_emitters(self, emitters):
+        return
+
+    def buy_stocks(self, budget, emitters):
+        for emitter in emitters:
+            request = budget//len(emitters)
+            self.stocks.append((emitter, emitter.sell_stocks(request)))
+
+        return self.stocks
 
 
 #class of Investor, who buy stocks and pays the broker
@@ -31,6 +52,14 @@ class Investor:
         self.budget = budget
         self.id = 'i'
         self.location = (random.uniform(0, 1), random.uniform(0, 1))
+        self.perc_agreement = random.uniform(0, 1)
+        self.broker = ''
+
+    def find_broker(self, brokers):
+        for agent in brokers:
+            if self.perc_agreement >= agent.percent:
+                self.broker = agent
+        return self.broker
 
 def get_x(a, b):
     try:
@@ -60,10 +89,10 @@ def triangular_distr(a, b):
     return res
 
 #the main function for initialize players on the financial market
-def initialize(players, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations):
+def initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations):
     for _ in range(numEmitters):
         agency = random.choice([i for i in range(1, numAgency+1)])
-        emitter = Emitter(agency=agency, numStocks=numStocks, numObligations=numObligations)
+        emitter = Emitter(agency=agency, numStocks=numStocks, numObligations=numObligations, period=period)
         players.append(emitter)
 
     for _ in range(numBrokers):
@@ -77,6 +106,7 @@ def initialize(players, numEmitters, numBrokers, numInvestors, numAgency, numSto
         players.append(investor)
 
 players = []
+period = 24
 numEmitters = 10
 numBrokers = 40
 numInvestors = 100
@@ -84,12 +114,14 @@ numAgency = random.randint(0, 10)
 numStocks = triangular_distr(50, 200)
 numObligations = triangular_distr(10, 100)
 
-def simulation():
-    for player in players:
-        if player.id == 'e':
-            return True
+def simulation(period):
+    while period != 0:
+        for player in players:
+            if player.id == 'e':
+                player.offering_stocks()
+        period -= 1
 
 if __name__ == "__main__":
-    initialize(players, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations)
-    print(simulation())
+    initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations)
+    simulation(period)
 # print(players[0].location)
