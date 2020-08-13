@@ -3,7 +3,7 @@ from math import sqrt
 #class of Emitter, who puts stocks up for sale
 class Emitter:
     def __init__(self, **kwargs):
-        self.agency = kwargs.get("agency", 0)
+        self.agency = kwargs.get("agency", 1)
         self.id = 'e'
         self.numStocks = kwargs.get("numStocks", 100)
         self.numObligations = kwargs.get("numObligations", 100)
@@ -40,7 +40,7 @@ class Broker:
 
     def buy_stocks(self, budget, emitters):
         for emitter in emitters:
-            request = budget//len(emitters)
+            request = budget//len(emitters)//emitter.price
             self.stocks.append((emitter, emitter.sell_stocks(request)))
 
         return self.stocks
@@ -59,6 +59,7 @@ class Investor:
         for agent in brokers:
             if self.perc_agreement >= agent.percent:
                 self.broker = agent
+
         return self.broker
 
 def get_x(a, b):
@@ -89,28 +90,35 @@ def triangular_distr(a, b):
     return res
 
 #the main function for initialize players on the financial market
-def initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations):
+def initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations,\
+                                list_emitters, list_brokers, list_investors):
     for _ in range(numEmitters):
         agency = random.choice([i for i in range(1, numAgency+1)])
         emitter = Emitter(agency=agency, numStocks=numStocks, numObligations=numObligations, period=period)
         players.append(emitter)
+        list_emitters.append(emitter)
 
     for _ in range(numBrokers):
         percent = random.uniform(0, 1)
         broker = Broker(percent)
         players.append(broker)
+        list_brokers.append(broker)
 
     for _ in range(numInvestors):
         budget = triangular_distr(100, 1000000)
         investor = Investor(budget)
         players.append(investor)
+        list_investors.append(investor)
 
 players = []
+list_emitters = []
+list_brokers = []
+list_investors = []
 period = 24
 numEmitters = 10
 numBrokers = 40
 numInvestors = 100
-numAgency = random.randint(0, 10)
+numAgency = random.randint(1, 10)
 numStocks = triangular_distr(50, 200)
 numObligations = triangular_distr(10, 100)
 
@@ -119,9 +127,15 @@ def simulation(period):
         for player in players:
             if player.id == 'e':
                 player.offering_stocks()
+            elif player.id == 'i':
+                player.find_broker(list_brokers)
+            else: return
         period -= 1
 
 if __name__ == "__main__":
-    initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations)
+    initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations,\
+                    list_emitters, list_brokers, list_investors)
     simulation(period)
-# print(players[0].location)
+
+print(players[21].buy_stocks(1000, list_emitters)) #the 21th broker bought stocks from certain emitters
+print(list_investors[10].find_broker(list_brokers)) #the certain broker for investor
