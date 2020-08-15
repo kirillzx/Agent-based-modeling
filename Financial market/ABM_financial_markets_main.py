@@ -1,5 +1,6 @@
 import random
 from math import sqrt
+from decorators import *
 #class of Emitter, who puts stocks up for sale
 class Emitter:
     def __init__(self, **kwargs):
@@ -104,6 +105,7 @@ def triangular_distr(a, b):
     return res
 
 #the main function for initialize players on the financial market
+@timeit
 def initialize(players, period, numEmitters, numBrokers, numInvestors, numAgency, numStocks, numObligations,\
                                 list_emitters, list_brokers, list_investors):
     for _ in range(numEmitters):
@@ -136,7 +138,7 @@ numInvestors = 100
 numAgency = random.randint(1, 10)
 numStocks = random.randint(50, 200)
 numObligations = random.randint(10, 100)
-
+@timeit
 def simulation(period):
     # while period != 0:
         for player in players:
